@@ -4,4 +4,4 @@ this is a mockup based on a figma design i've found https://www.figma.com/file/n
 this design is only for the desktop devices ,ive managed to make responsive "a bit".
 
 
-!check it out here https://firstmockup.w3spaces.com/
+#!check it out here https://firstmockup.w3spaces.com/
