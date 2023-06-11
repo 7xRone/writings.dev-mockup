@@ -1,0 +1,33 @@
+.footer {
+  margin: 20px;
+  border-top: 1px solid #5d636d;
+}
+.footer p {
+  padding: 30px;
+  color: white;
+}
+.footer p strong {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.footer p span {
+  font-size: 20px;
+}
+.footer ul a {
+  text-decoration: none;
+  color: azure;
+}
+.center-links {
+  display: flex;
+  justify-content: center;
+}
+.center-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.center-links ul li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}

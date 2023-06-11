@@ -1,0 +1,56 @@
+.article-listing {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.article-listing article {
+  background-color: aliceblue;
+  padding: 20px;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 20px;
+}
+.article-listing article img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article-listing article h3 {
+  font-size: 24px;
+  text-align: left;
+}
+.article-listing article p {
+  text-align: left;
+  font-size: 16px;
+}
+.article-listing article .date-and-subjuct {
+  overflow: hidden;
+}
+.article-listing article .date-and-subjuct p {
+  float: left;
+  text-align: left;
+}
+.article-listing article .date-and-subjuct .point {
+  float: left;
+  width: 4px;
+  height: 4px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: black;
+}
+@media screen and (min-width: 490px) {
+  .article-listing {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .article-listing article {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .article-listing article {
+    width: 25%;
+  }
+}

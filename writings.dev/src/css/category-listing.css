@@ -1,0 +1,49 @@
+.category-listing {
+  overflow: hidden;
+}
+.category-listing .icons {
+  float: left;
+  margin-left: 8px;
+}
+#grid-view {
+  font-size: 40px;
+  color: white;
+}
+.list-view {
+  margin-top: 2px;
+  float: right;
+}
+.list-lines {
+  width: 31px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+}
+
+.category-listing h2 {
+  color: white;
+  float: right;
+  margin: 0;
+  margin-top: 7px;
+  margin-right: 8px;
+}
+@media screen and (min-width: 490px) {
+  .category-listing {
+    margin: 20px;
+  }
+  #grid-view {
+    font-size: 60px;
+  }
+  .list-view {
+    margin-top: 5px;
+  }
+  .list-lines {
+    width: 42px;
+    height: 8px;
+    margin-top: 6px;
+  }
+  .category-listing h2 {
+    font-size: 45px;
+    margin-right: 20px;
+  }
+}

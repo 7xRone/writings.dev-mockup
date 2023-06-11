@@ -1,0 +1,12 @@
+@import url("header.css");
+@import url("category-listing.css");
+@import url("article-listing.css");
+@import url("pagination.css");
+@import url("footer.css");
+
+body {
+  background-color: #232830;
+}
+* {
+  box-sizing: border-box;
+}

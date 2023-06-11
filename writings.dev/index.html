@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src="src/js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,1,200"
+    />
+
+    <title>writings.dev</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="top-nav">
+        <h1 id="writings-dev">writings.dev</h1>
+        <div
+          class="menu"
+          onmouseenter="display_nav(true)"
+          onmouseleave="display_nav(false)"
+        >
+          <div class="menu-lines"></div>
+          <div class="menu-lines"></div>
+          <div class="menu-lines"></div>
+        </div>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-items">
+            <a class="nav-links" href="#f">categories</a>
+          </li>
+          <li class="nav-items">
+            <a class="nav-links" href="#">articles</a>
+          </li>
+          <li class="nav-items"><a class="nav-links" href="#">about</a></li>
+        </ul>
+      </nav>
+      <div class="container-logo-titles">
+        <div class="logo-container">
+          <img src="src/images/Logo.svg" alt="logo" />
+        </div>
+        <h1>writings for developers</h1>
+        <p>Curated collection of articles for busy developers</p>
+      </div>
+    </header>
+    <hr />
+    <main class="main">
+      <section class="category-listing">
+        <div class="icons">
+          <span id="grid-view" class="material-symbols-outlined">
+            grid_view
+          </span>
+          <div class="list-view">
+            <div class="list-lines"></div>
+            <div class="list-lines"></div>
+            <div class="list-lines"></div>
+          </div>
+        </div>
+        <h2>Category Listing</h2>
+      </section>
+      <section class="article-listing">
+        <article>
+          <img
+            src="src/images/articles/article-img-2.png"
+            alt="article-img-1"
+          />
+          <h3>Python for the Absolute beginners</h3>
+          <p>
+            Python is the most popular programming language out there and it is
+            used for so many different industries.
+          </p>
+          <div class="date-and-subjuct">
+            <p>June 24, 2022</p>
+            <div class="point"></div>
+            <p>DevOps</p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="src/images/articles/article-img-1.png"
+            alt="article-img-1"
+          />
+          <h3>Build continuous integration pipelines with GitHub Actions</h3>
+          <p>
+            GitHub actions provide a really powerful way to integrate continuous
+            integration and delivery into your applications.
+          </p>
+          <div class="date-and-subjuct">
+            <p>June 24, 2022</p>
+            <div class="point"></div>
+            <p>DevOps</p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="src/images/articles/article-img-3.png"
+            alt="article-img-1"
+          />
+          <h3>Docker from Zero to Hero</h3>
+          <p>
+            Learn what is Docker and how Docker is used in the whole software
+            development process.
+          </p>
+          <div class="date-and-subjuct">
+            <p>June 24, 2022</p>
+            <div class="point"></div>
+            <p>DevOps</p>
+          </div>
+        </article>
+      </section>
+      <section class="pagination">
+        <ul>
+          <li><a href="#">Previous</a></li>
+          <li><a href="#">1</a></li>
+          <li class="active-page"><a id="active-page-a" href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">Next</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>by <strong>7xRone</strong> <span>&copy;</span></p>
+      <div class="center-links">
+        <ul>
+          <li>
+            <a href="https://github.com/7xrone">My github</a>
+          </li>
+          <li><a href="https://twitter.com/7xrone">My twitter</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
